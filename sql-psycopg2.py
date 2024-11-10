@@ -12,6 +12,9 @@ results = cursor.fetchall()
 # Query 1 - Select all records from the "Artists" table
 cursor.execute('SELECT * FROM "Artist"' )
 
+# Query  - Select only the "Name" column from the "Artists" table
+cursor.execute('SELECT "Name" FROM "Artist"' )
+
 # to fetch for results(single)
 # results = cursor.fetchone()
 
